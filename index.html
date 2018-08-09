@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Blog Layout using Pure.css</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/layouts/blog.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+          <h1 class="brand-title">essense of life</h1>
+          <h3 class="brand-tagline">Simple blog for beautiful words</h3>
+          <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="">Pure.CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="">Mohit Kirnage</a>
+                    </li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Most viewed</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Marilyn&#x27;s avatar" class="post-avatar" src="img/common/marilyn.jpg">
+
+                        <h2 class="post-title">Me at my best</h2>
+
+                        <p class="post-meta">
+                            By <a href="#" class="post-author">Marilyn Monroe </a> under <a class="post-category post-category-design" href="#">Life</a> <a class="post-category post-category-pure" href="#">Truth</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            “I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” 
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead">Recent Posts</h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Marilyn&#x27;s avatar" class="post-avatar" src="img/common/marilyn.jpg">
+
+                        <h2 class="post-title">Life is what you make it</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">Marilyn Monroe </a> under <a class="post-category post-category-js" href="#">Love</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            This life is what you make it. No matter what, you're going to mess up sometimes, it's a universal truth. But the good part is you get to decide how you're going to mess it up. Girls will be your friends - they'll act like it anyway. But just remember, some come, some go. The ones that stay with you through everything - they're your true best friends. Don't let go of them. Also remember, sisters make the best friends in the world. As for lovers, well, they'll come and go too. And baby, I hate to say it, most of them - actually pretty much all of them are going to break your heart, but you can't give up because if you give up, you'll never find your soulmate. You'll never find that half who makes you whole and that goes for everything. Just because you fail once, doesn't mean you're gonna fail at everything. Keep trying, hold on, and always, always, always believe in yourself, because if you don't, then who will, sweetie? So keep your head high, keep your chin up, and most importantly, keep smiling, because life's a beautiful thing and there's so much to smile about.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="img/common/reid-avatar.png">
+
+                        <h2 class="post-title">Memories : Photos from NY event</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">Marilyn Monroe</a> under <a class="post-category" href="#">Event</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <div class="post-images pure-g">
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="">
+                                    <img alt=""
+                                         class="pure-img-responsive"
+                                         src="img/common/event2.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>NY event , 2017</h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="">
+                                    <img alt=""
+                                         class="pure-img-responsive"
+                                         src="img/common/event1.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>NY event , 2017</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Marilyn Monroe&#x27;s avatar" class="post-avatar" src="img/common/marilyn.jpg">
+
+                        <h2 class="post-title">Fall together</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">Marilyn Monroe</a> under <a class="post-category post-category-yui" href="#">Fall</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they're right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="" class="pure-menu-link">About</a></li>
+                        <li class="pure-menu-item"><a href="" class="pure-menu-link">Twitter</a></li>
+                        <li class="pure-menu-item"><a href="" class="pure-menu-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
